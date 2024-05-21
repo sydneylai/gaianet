@@ -1,7 +1,7 @@
 # Boardroom Integration Specs
 
 :::info
-:bulb: This Scope of Work is is product specs that helps builders get context on integration requests.
+:bulb: Driven by the mission to insure all protocols can own their own custom GPT agent.
 :::
 
 ## :beginner: Product Info
@@ -26,6 +26,14 @@ Ideas to get builders started but are not limited to the following:
 :::success
 More contextualized detail of how these products would work
 :::
+
+Here are the steps to follow:
+
+**Bounty 1:** build a protocol node
+
+**Bounty 2:** build a client-side app (can be Twitter, Farcaster, Custom)
+
+**Bounty 3:** build a unique use case app
 
 Here is a SOW Maintainers could help with:
 - Boardroom have a massive amount of rich protocol DAO delegate data on top of onchain data
@@ -108,7 +116,7 @@ Specs are ultimately dependent on what you decide to build
 
 
 **Functional Requirements**
-* FR-1: The node shall efficiently crawl and index new blocks added to the [EVM compatible].
+* FR-1: The node shall efficiently crawl and index new blocks added to the node.
 * FR-2: The node shall provide a robust query interface for searching and retrieving indexed data.
 * FR-3: The node shall support filtering and sorting of search results based on specific criteria.
 * FR-4: The node shall offer functionality for synchronizing with the blockchain in case of network interruptions.
